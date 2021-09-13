@@ -11,6 +11,7 @@ const TodoListBlock = styled.div`
 `;
   function TodoList() {
 		const todos = useTodoState();
+		
 		return (
 		<TodoListBlock>
 		{todos.map( todo => (
